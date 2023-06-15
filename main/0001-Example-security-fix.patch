@@ -1,0 +1,20 @@
+From cce469d7d6f0c85cd1e350e5bca3396b27a8dfc5 Mon Sep 17 00:00:00 2001
+From: Kevin Minehart <kmineh0151@gmail.com>
+Date: Thu, 15 Jun 2023 10:19:43 -0500
+Subject: [PATCH] Example security fix
+
+---
+ new-dir/newfile.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 new-dir/newfile.txt
+
+diff --git a/new-dir/newfile.txt b/new-dir/newfile.txt
+new file mode 100644
+index 0000000..fa49b07
+--- /dev/null
++++ b/new-dir/newfile.txt
+@@ -0,0 +1 @@
++new file
+-- 
+2.41.0
+
